@@ -9,6 +9,10 @@ using UnityEngine;
 [RequireComponent(typeof(CapsuleCollider))]
 public class PlayerMove : MonoBehaviour
 {
+	[Header("Reset config")]
+	public Transform spawnTransform;
+
+
 	[Header("Gravity")]
 	public float gravity;
 
@@ -40,7 +44,6 @@ public class PlayerMove : MonoBehaviour
 
 	Vector2 movementInputs = new Vector2();
 	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .2f, LayerMask.GetMask("Ground"));
-
 	private void Start()
 	{
 		animator = GetComponent<Animator>();
@@ -48,8 +51,18 @@ public class PlayerMove : MonoBehaviour
 		col = GetComponent<CapsuleCollider>();
 
 		mainCam = Camera.main.transform;
+
+		ResetTransform();
 	}
 
+	private void OnEnable()
+	{
+		GameEvents.ResetPlayer += ResetTransform;
+	}
+	private void OnDisable()
+	{
+		GameEvents.ResetPlayer -= ResetTransform;
+	}
 	private void Update()
 	{
 		Gravity();
@@ -68,7 +81,6 @@ public class PlayerMove : MonoBehaviour
 
 		print(IsGrounded);
 	}
-
 	void JumpController()
 	{ 
 		if (!Input.GetKeyDown(KeyCode.Space))
@@ -79,7 +91,6 @@ public class PlayerMove : MonoBehaviour
 		else if (canDoubleJump)
 			DoubleJump();
 	}
-
 	private void MovePlayer()
 	{
 		movementInputs = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -131,7 +142,6 @@ public class PlayerMove : MonoBehaviour
 	{
 		animator.SetBool("doublejump", false);
 	}
-
 	IEnumerator Dash()
 	{
 		animator.SetBool("dash", true);
@@ -143,10 +153,15 @@ public class PlayerMove : MonoBehaviour
 		yield return new WaitForSeconds(dashCooldawn);
 		isDashing = false;
 	}
-
 	public void Gravity() 
 	{
 		Vector3 gravityVector = new Vector3(0, -gravity * rb.mass, 0);
 		rb.AddForce(gravityVector, ForceMode.Acceleration);
+	}
+
+
+	void ResetTransform() 
+	{
+		transform.position = spawnTransform.position;
 	}
 }
