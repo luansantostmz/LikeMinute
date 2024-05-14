@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -17,9 +19,8 @@ public class PlayerMove : MonoBehaviour
 	[Header("Jump config")]
 	public float jumpForce = 10f;
 	public float jumpCooldown = 1f;
-	public int jumpsLeft;
 	public bool doubleJumpEnabled = false;
-	[SerializeField]private bool canJump = true;
+	bool canDoubleJump;
 
 	[Header("Dash config")]
 	[SerializeField] float dashForce = 10;
@@ -33,12 +34,13 @@ public class PlayerMove : MonoBehaviour
 
 	Animator animator;
 
-
-
 	private Rigidbody rb;
 	private CapsuleCollider col;
-
 	Transform mainCam;
+
+	Vector2 movementInputs = new Vector2();
+	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .2f, LayerMask.GetMask("Ground"));
+
 	private void Start()
 	{
 		animator = GetComponent<Animator>();
@@ -50,35 +52,13 @@ public class PlayerMove : MonoBehaviour
 
 	private void Update()
 	{
-		Gravity();		
-		if(jumpsLeft <= 0 ) Invoke("ResetDoubleJump", 1);
-		//Jump
-		RaycastHit hit;
-		grounded = Physics.SphereCast(col.bounds.center, col.radius * 0.9f, Vector3.down, out hit,1);
+		Gravity();
 
-		if (doubleJumpEnabled) 
-		{
+		animator.SetBool("isGrounded", IsGrounded);
+		animator.SetFloat("movementVelocity", movementInputs.normalized.magnitude);
 
-			if (grounded && canJump && Input.GetKeyDown(KeyCode.Space))
-			{				
-				Jump();
-				jumpsLeft--;
-			}
-			else if (Input.GetKeyDown(KeyCode.Space) && jumpsLeft == 1 && canJump)
-			{
-				Jump();
-				jumpsLeft--;				
-			}
-		}
-		else 
-		{
-			if (grounded && canJump && Input.GetKeyDown(KeyCode.Space))
-			{				
-				Jump();				
-			}
-		}
-
-				
+		JumpController();
+		MovePlayer();
 
 		//Dash
 		if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
@@ -86,13 +66,25 @@ public class PlayerMove : MonoBehaviour
 			StartCoroutine(Dash());
 		}
 
+		print(IsGrounded);
 	}
-	private void FixedUpdate()
-	{
-		float horizontal = Input.GetAxisRaw("Horizontal");
-		float vertical = Input.GetAxisRaw("Vertical");
 
-		direction.Set(horizontal, 0, vertical);
+	void JumpController()
+	{ 
+		if (!Input.GetKeyDown(KeyCode.Space))
+			return;
+
+		if (IsGrounded)
+			StartCoroutine(Jump());
+		else if (canDoubleJump)
+			DoubleJump();
+	}
+
+	private void MovePlayer()
+	{
+		movementInputs = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+		direction.Set(movementInputs.x, 0, movementInputs.y);
 		direction = Quaternion.Euler(0, mainCam.eulerAngles.y, 0) * direction;
 		direction.Normalize();
 
@@ -100,7 +92,7 @@ public class PlayerMove : MonoBehaviour
 		rb.MoveRotation(Quaternion.LookRotation(desiredFoward));
 
 		bool running = false;
-		if (horizontal != 0 || vertical != 0)
+		if (movementInputs.magnitude != 0)
 		{
 			running = true;
 		}
@@ -110,23 +102,34 @@ public class PlayerMove : MonoBehaviour
 		rb.MovePosition(rb.position + direction * speedWalk * Time.deltaTime);
 
 	}
-	private void Jump()
+	private IEnumerator Jump()
 	{		
-		animator.SetBool("jump", true);
-		rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z); 
-		rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-		canJump = false;
+		rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+		Debug.Log("APENAS UM PULO, NAO SOU MT BOM");
 
-		Invoke("ResetJump", jumpCooldown);
+		if (doubleJumpEnabled)
+			canDoubleJump = true;
+
+		yield return new WaitForSeconds(.25f);
+		yield return new WaitUntil(() => IsGrounded);
+
+		canDoubleJump = false;
+		ResetJumpAnimation();
 	}
-	private void ResetJump()
+	private void DoubleJump()
 	{
-		canJump = true;
+		canDoubleJump = false;
+
+		Debug.Log("PULEI DUPLAMENTE, SE FODEU");
+		animator.SetBool("doublejump", true);
 		animator.SetBool("jump", false);
+		rb.velocity = new Vector3(rb.velocity.x, jumpForce * 1.5f, rb.velocity.z);
+
+		Invoke(nameof(ResetJumpAnimation), jumpCooldown);
 	}
-	private void ResetDoubleJump()
+	private void ResetJumpAnimation()
 	{
-		jumpsLeft = 2;
+		animator.SetBool("doublejump", false);
 	}
 
 	IEnumerator Dash()
@@ -140,7 +143,6 @@ public class PlayerMove : MonoBehaviour
 		yield return new WaitForSeconds(dashCooldawn);
 		isDashing = false;
 	}
-
 
 	public void Gravity() 
 	{
