@@ -88,7 +88,7 @@ public class PlayerMove : MonoBehaviour
 		direction = Quaternion.Euler(0, mainCam.eulerAngles.y, 0) * direction;
 		direction.Normalize();
 
-		Vector3 desiredFoward = Vector3.RotateTowards(transform.forward, direction, 20 * Time.deltaTime, 0);
+		Vector3 desiredFoward = Vector3.RotateTowards(transform.forward, direction, 80 * Time.deltaTime, 0);
 		rb.MoveRotation(Quaternion.LookRotation(desiredFoward));
 
 		bool running = false;
@@ -97,7 +97,7 @@ public class PlayerMove : MonoBehaviour
 			running = true;
 		}
 
-		animator.SetBool("run", running);
+		//animator.SetBool("run", running);
 
 		rb.MovePosition(rb.position + direction * speedWalk * Time.deltaTime);
 
