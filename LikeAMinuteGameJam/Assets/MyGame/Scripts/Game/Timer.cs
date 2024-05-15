@@ -6,14 +6,20 @@ public class Timer : MonoBehaviour
 {
 	public float tempoTotal = 60f;
 	private float tempoAtual; 
-	public TextMeshProUGUI textoContador; 
+	public TextMeshProUGUI textoContador;	
 
 	void Start()
 	{
-		tempoAtual = tempoTotal;
-		IniciarContador();
+		tempoAtual = tempoTotal;		
 	}
-
+	private void OnEnable()
+	{
+		GameEvents.OnExitSafeZone+= IniciarContador; 
+	}
+	private void OnDisable()
+	{
+		GameEvents.OnExitSafeZone -= IniciarContador;
+	}
 	void IniciarContador()
 	{
 		StartCoroutine(AtualizarContador());
@@ -29,6 +35,12 @@ public class Timer : MonoBehaviour
 			tempoAtual--; 
 		}
 
-		textoContador.text = "Fim!";
+		RestartPlayerPosition();
+	}
+
+	void RestartPlayerPosition() 
+	{
+		GameEvents.ResetPlayer?.Invoke();
+		tempoAtual = tempoTotal;
 	}
 }
