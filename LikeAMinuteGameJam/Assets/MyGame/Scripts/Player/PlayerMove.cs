@@ -12,7 +12,6 @@ public class PlayerMove : MonoBehaviour
 	[Header("Reset config")]
 	public Transform spawnTransform;
 
-
 	[Header("Gravity")]
 	public float gravity;
 
@@ -32,11 +31,23 @@ public class PlayerMove : MonoBehaviour
 	[SerializeField] float dashCooldawn;
 	[SerializeField] bool isDashing = false;
 
+	[Header("Blink config")]
+
+	[SerializeField] private float blinkTime = 3f;
+	[SerializeField] private float blinkDuration = 0.1f;
+
+	[SerializeField] private SkinnedMeshRenderer meshRenderer;
+	[SerializeField] private bool isInvulnerable = false;
+
+
+	[Space]
 	[SerializeField]private bool grounded = false;
 
 	Vector3 direction;
 
 	Animator animator;
+
+	LifePlayer lifePlayer;
 
 	private Rigidbody rb;
 	private CapsuleCollider col;
@@ -49,8 +60,14 @@ public class PlayerMove : MonoBehaviour
 		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
+		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
 		mainCam = Camera.main.transform;
+
+		meshRenderer.enabled = true;
+
+		lifePlayer = GetComponent<LifePlayer>();
+
 
 		ResetTransform();
 	}
@@ -156,10 +173,50 @@ public class PlayerMove : MonoBehaviour
 		Vector3 gravityVector = new Vector3(0, -gravity * rb.mass, 0);
 		rb.AddForce(gravityVector, ForceMode.Acceleration);
 	}
-
-
 	void ResetTransform() 
 	{
 		transform.position = spawnTransform.position;
 	}
+
+	public void TakeDamage()
+	{
+		if (!isInvulnerable)
+		{
+			isInvulnerable = true;
+			StartCoroutine(InvulnerabilityCoroutine());
+		}
+	}
+	IEnumerator InvulnerabilityCoroutine()
+	{
+		// Faça o personagem piscar durante 3 segundos		
+		int blinkCount = Mathf.FloorToInt(blinkTime / (2 * blinkDuration));
+
+		for (int i = 0; i < blinkCount; i++)
+		{
+			meshRenderer.enabled = !meshRenderer.enabled;
+			yield return new WaitForSeconds(blinkDuration);
+		}
+
+		// Garanta que o personagem esteja visível no final
+		meshRenderer.enabled = true;
+
+		// Desativar invulnerabilidade após o efeito de piscar
+		isInvulnerable = false;
+	}
+
+
+	private void OnTriggerEnter(Collider col)
+	{
+		if (col.CompareTag("obstacle") && !isInvulnerable)
+		{
+			lifePlayer.TakeDamage(1);
+			TakeDamage();			
+		}
+		if (col.CompareTag("heart"))
+		{
+			lifePlayer.AddHealth(1);		
+		}
+	}
+
+
 }

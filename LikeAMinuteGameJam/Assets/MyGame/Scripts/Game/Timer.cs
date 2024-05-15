@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
 		RestartPlayerPosition();
 	}
 
-	void RestartPlayerPosition() 
+	public void RestartPlayerPosition() 
 	{
 		GameEvents.ResetPlayer?.Invoke();
 		tempoAtual = tempoTotal;
