@@ -6,4 +6,6 @@ public class GameEvents
 	public static Action OnExitSafeZone;
 
 	public static Action ResetPlayer;
+
+	public static Action TotensWindCount;
 }

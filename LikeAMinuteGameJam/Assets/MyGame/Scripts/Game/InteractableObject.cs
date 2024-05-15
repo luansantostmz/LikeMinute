@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class InteractableObject : MonoBehaviour
 {
 	public GameObject interactionIcon;
@@ -19,7 +21,7 @@ public class InteractableObject : MonoBehaviour
 	void Update()
 	{
 		float distance = Vector3.Distance(transform.position, player.position);
-		Debug.Log(distance);
+		
 		if(distance <= interctableDistance) 
 		{ 
 			interactionIcon.SetActive(true); 

@@ -77,9 +77,7 @@ public class PlayerMove : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
 		{
 			StartCoroutine(Dash());
-		}
-
-		print(IsGrounded);
+		}		
 	}
 	void JumpController()
 	{ 

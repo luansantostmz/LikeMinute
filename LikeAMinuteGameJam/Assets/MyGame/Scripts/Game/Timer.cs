@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour
 	}
 	private void OnEnable()
 	{
-		GameEvents.OnExitSafeZone+= IniciarContador;
+		GameEvents.OnExitSafeZone+= IniciarContador; 
 	}
 	private void OnDisable()
 	{
