@@ -8,4 +8,8 @@ public class GameEvents
 	public static Action ResetPlayer;
 
 	public static Action TotensWindCount;
+
+	public static Action<int> TimeCoin;
+
+	public static Action FragmentMemory;
 }

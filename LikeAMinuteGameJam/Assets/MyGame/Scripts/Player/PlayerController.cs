@@ -7,7 +7,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(CapsuleCollider))]
-public class PlayerMove : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	[Header("Reset config")]
 	public Transform spawnTransform;
@@ -15,9 +15,11 @@ public class PlayerMove : MonoBehaviour
 	[Header("Gravity")]
 	public float gravity;
 
+	[Space]
 	[Header("Move config")]
-	[SerializeField] float speedWalk;
+	[SerializeField] float speed;
 	[SerializeField] float speedRun;
+	[SerializeField] float speedwindRun;
 
 	[Header("Jump config")]
 	public float jumpForce = 10f;
@@ -68,6 +70,8 @@ public class PlayerMove : MonoBehaviour
 
 		lifePlayer = GetComponent<LifePlayer>();
 
+
+		speed = speedRun;
 
 		ResetTransform();
 	}
@@ -125,9 +129,20 @@ public class PlayerMove : MonoBehaviour
 
 		//animator.SetBool("run", running);
 
-		rb.MovePosition(rb.position + direction * speedWalk * Time.deltaTime);
+		rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
 
 	}
+
+	private IEnumerator WindSpeed() 
+	{
+		speed = speedwindRun;
+
+		yield return new WaitForSeconds(10f);
+
+		speed = speedRun;
+	}
+
+
 	private IEnumerator Jump()
 	{		
 		rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
@@ -177,7 +192,6 @@ public class PlayerMove : MonoBehaviour
 	{
 		transform.position = spawnTransform.position;
 	}
-
 	public void TakeDamage()
 	{
 		if (!isInvulnerable)
@@ -203,8 +217,6 @@ public class PlayerMove : MonoBehaviour
 		// Desativar invulnerabilidade após o efeito de piscar
 		isInvulnerable = false;
 	}
-
-
 	private void OnTriggerEnter(Collider col)
 	{
 		if (col.CompareTag("obstacle") && !isInvulnerable)
@@ -214,7 +226,24 @@ public class PlayerMove : MonoBehaviour
 		}
 		if (col.CompareTag("heart"))
 		{
-			lifePlayer.AddHealth(1);		
+			lifePlayer.AddHealth(1);
+			Destroy(col.gameObject);
+		}
+		if (col.CompareTag("coin"))
+		{
+			GameEvents.TimeCoin?.Invoke(2);
+			Destroy(col.gameObject);
+		}
+		if (col.CompareTag("forceWind")) 
+		{
+			StartCoroutine(WindSpeed());
+		}
+		if (col.CompareTag("FragmentMemory")) 
+		{
+			GameEvents.FragmentMemory?.Invoke();
+			lifePlayer.AddHealth(3);
+			GameEvents.TimeCoin?.Invoke(10);
+			Destroy(col.gameObject);
 		}
 	}
 

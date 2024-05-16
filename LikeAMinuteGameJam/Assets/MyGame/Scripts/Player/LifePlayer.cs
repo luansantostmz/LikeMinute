@@ -8,7 +8,7 @@ public class LifePlayer : MonoBehaviour
 	private int currentHealth;
 	public GameObject[] hearts;
 
-	public Timer timer;
+	public UiController timer;
 
 	void Start()
 	{
@@ -37,6 +37,7 @@ public class LifePlayer : MonoBehaviour
 
 		UpdateHearts();
 	}
+
 	private void UpdateHearts()
 	{
 		for (int i = 0; i < maxHealth; i++)
