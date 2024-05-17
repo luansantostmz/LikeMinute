@@ -7,10 +7,11 @@ public class DoorWind : MonoBehaviour
 {
 
 	public int windTotemCount;
+	public int totalTotemWInd;
 	public GameObject door;
 	public GameObject wind;
 
-	public bool doorOrWind;
+	public bool doorObject;
 
 	private void OnEnable()
 	{
@@ -23,9 +24,9 @@ public class DoorWind : MonoBehaviour
 
 	private void Update()
 	{
-		if(windTotemCount == 1) 
+		if(windTotemCount == totalTotemWInd) 
 		{
-			if (doorOrWind) 
+			if (doorObject) 
 			{
 				door.SetActive(true);
 			}
@@ -37,9 +38,9 @@ public class DoorWind : MonoBehaviour
 		}
 	}
 
-	public void AddWindCount() 
+	public void AddWindCount(int value) 
 	{
-		windTotemCount+= 1;
+		windTotemCount+= value;
 	}
 
 
