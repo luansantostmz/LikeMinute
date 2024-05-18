@@ -8,10 +8,13 @@ public class ThrowAndFall : MonoBehaviour
 
 	private bool isThrown = false;
 
+	PlayerController pController;
+
 	private void OnTriggerEnter(Collider other)
 	{
-		
-		if (other.CompareTag("Player"))
+		pController = other.GetComponent<PlayerController>();
+
+		if (other.CompareTag("Player") && !pController.isDashing)
 		{
 			
 			Rigidbody rb = other.GetComponent<Rigidbody>();
