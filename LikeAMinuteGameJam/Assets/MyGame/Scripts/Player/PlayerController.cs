@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private float blinkTime = 3f;
 	[SerializeField] private float blinkDuration = 0.1f;
 
-	[SerializeField] private MeshRenderer meshRenderer;
+	[SerializeField] private SkinnedMeshRenderer meshRenderer;
 	[SerializeField] private bool isInvulnerable = false;
 
 
@@ -57,10 +57,10 @@ public class PlayerController : MonoBehaviour
 	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .4f, LayerMask.GetMask("Ground"));
 	private void Start()
 	{
-		animator = GetComponent<Animator>();
+		animator = GetComponentInChildren<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
-		meshRenderer = GetComponentInChildren<MeshRenderer>();
+		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
 		mainCam = Camera.main.transform;
 
