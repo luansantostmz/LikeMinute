@@ -1,8 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -38,11 +34,12 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private float blinkTime = 3f;
 	[SerializeField] private float blinkDuration = 0.1f;
 
-	[SerializeField] private SkinnedMeshRenderer meshRenderer;
+	[SerializeField] private MeshRenderer meshRenderer;
 	[SerializeField] private bool isInvulnerable = false;
 
 
 	[Space]
+	[SerializeField] PlayerSFX SFX;
 	[SerializeField]private bool grounded = false;
 
 	Vector3 direction;
@@ -64,7 +61,7 @@ public class PlayerController : MonoBehaviour
 		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
-		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
+		meshRenderer = GetComponentInChildren<MeshRenderer>();
 
 		mainCam = Camera.main.transform;
 
@@ -146,7 +143,8 @@ public class PlayerController : MonoBehaviour
 
 
 	private IEnumerator Jump()
-	{		
+	{
+		AudioManager.Play(SFX.Jump);
 		rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
 		Debug.Log("APENAS UM PULO, NAO SOU MT BOM");
 
@@ -162,6 +160,7 @@ public class PlayerController : MonoBehaviour
 
 	private void DoubleJump()
 	{
+		AudioManager.Play(SFX.Jump);
 		canDoubleJump = false;
 
 		Debug.Log("PULEI DUPLAMENTE, SE FODEU");
@@ -177,6 +176,7 @@ public class PlayerController : MonoBehaviour
 	}
 	IEnumerator Dash()
 	{
+		AudioManager.Play(SFX.Dash);
 		animator.SetBool("dash", true);
 		isDashing = true;
 		rb.velocity = transform.forward * dashForce; 
@@ -230,31 +230,49 @@ public class PlayerController : MonoBehaviour
 	{
 		if (col.CompareTag("obstacle") && !isInvulnerable)
 		{
+			AudioManager.Play(SFX.Damage);
 			lifePlayer.TakeDamage(1);
-			TakeDamage();			
+			TakeDamage();
 		}
-		if (col.CompareTag("heart"))
+		else if (col.CompareTag("heart"))
 		{
+			AudioManager.Play(SFX.Collect);
 			lifePlayer.AddHealth(1);
 			Destroy(col.gameObject);
 		}
-		if (col.CompareTag("coin"))
+		else if (col.CompareTag("coin"))
 		{
+			AudioManager.Play(SFX.Collect);
 			GameEvents.TimeCoin?.Invoke(2);
 			Destroy(col.gameObject);
 		}
-		if (col.CompareTag("forceWind")) 
+		else if (col.CompareTag("forceWind"))
 		{
+			AudioManager.Play(SFX.Collect);
 			StartCoroutine(WindSpeed());
 		}
-		if (col.CompareTag("FragmentMemory")) 
+		else if (col.CompareTag("FragmentMemory"))
 		{
+			AudioManager.Play(SFX.Collect);
 			GameEvents.FragmentMemory?.Invoke();
 			lifePlayer.AddHealth(3);
 			GameEvents.TimeCoin?.Invoke(10);
 			Destroy(col.gameObject);
 		}
+		else if (col.CompareTag("ground") && IsGrounded)
+		{
+			AudioManager.Play(SFX.Land);
+		}
 	}
 
-
+	[System.Serializable]
+	public class PlayerSFX
+	{
+		public AudioClip Jump;
+		public AudioClip Dash;
+		public AudioClip Collect;
+		public AudioClip Land;
+		public AudioClip Interaction;
+		public AudioClip Damage;
+	}
 }
