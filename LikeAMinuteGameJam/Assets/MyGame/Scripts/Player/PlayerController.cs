@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
+using System.Collections; 
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -38,7 +34,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private float blinkTime = 3f;
 	[SerializeField] private float blinkDuration = 0.1f;
 
-	[SerializeField] private SkinnedMeshRenderer meshRenderer;
+	[SerializeField] private MeshRenderer meshRenderer;
 	[SerializeField] private bool isInvulnerable = false;
 
 
@@ -64,7 +60,7 @@ public class PlayerController : MonoBehaviour
 		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
-		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
+		meshRenderer = GetComponentInChildren<MeshRenderer>();
 
 		mainCam = Camera.main.transform;
 
