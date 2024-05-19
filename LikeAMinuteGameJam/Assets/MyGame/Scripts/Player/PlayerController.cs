@@ -6,7 +6,6 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(CapsuleCollider))]
 public class PlayerController : MonoBehaviour
 {
 	[Header("Reset config")]
@@ -31,7 +30,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] float dashForce = 10;
 	[SerializeField] float dashDuration = 0.2f;
 	[SerializeField] float dashCooldawn;
-	[SerializeField] bool isDashing = false;
+	public bool isDashing = false;
 
 	[Header("Blink config")]
 
@@ -56,7 +55,7 @@ public class PlayerController : MonoBehaviour
 	Transform mainCam;
 
 	Vector2 movementInputs = new Vector2();
-	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .2f, LayerMask.GetMask("Ground"));
+	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .4f, LayerMask.GetMask("Ground"));
 	private void Start()
 	{
 		animator = GetComponent<Animator>();
@@ -86,7 +85,8 @@ public class PlayerController : MonoBehaviour
 	}
 	private void Update()
 	{
-		Gravity();
+		if(!isDashing) Gravity();
+
 
 		animator.SetBool("isGrounded", IsGrounded);
 		animator.SetFloat("movementVelocity", movementInputs.normalized.magnitude);
