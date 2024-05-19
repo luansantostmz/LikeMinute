@@ -5,6 +5,7 @@ public class ThrowAndFall : MonoBehaviour
 	public float throwForce;
 	public float maxUpwardForce;
 	public Vector3 throwDirection;
+	public bool DisableGravity;
 
 	private bool isThrown = false;
 
@@ -16,6 +17,8 @@ public class ThrowAndFall : MonoBehaviour
 
 		if (other.CompareTag("Player") && !pController.isDashing)
 		{
+			if (DisableGravity)
+				other.GetComponent<PlayerController>().IsGravityEnabled = false;
 			
 			Rigidbody rb = other.GetComponent<Rigidbody>();
 			
@@ -34,7 +37,14 @@ public class ThrowAndFall : MonoBehaviour
 			}
 			
 			rb.AddForce(throwDirection * totalForce, ForceMode.Impulse);
+		}
+	}
 
+	private void OnTriggerExit(Collider other)
+	{
+		if (other.CompareTag("Player") && DisableGravity)
+		{
+			other.GetComponent<PlayerController>().IsGravityEnabled = true;
 		}
 	}
 }

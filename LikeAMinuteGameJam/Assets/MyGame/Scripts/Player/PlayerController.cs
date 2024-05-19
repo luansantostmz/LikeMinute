@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
 	[Header("Jump config")]
 	public float jumpForce = 10f;
+	public float doubleJumpForce = 10f;
 	public float jumpCooldown = 1f;
 	public bool doubleJumpEnabled = false;
 	bool canDoubleJump;
@@ -54,6 +55,8 @@ public class PlayerController : MonoBehaviour
 	private CapsuleCollider col;
 	Transform mainCam;
 
+	public bool IsGravityEnabled { get; set; } = true;
+
 	Vector2 movementInputs = new Vector2();
 	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .4f, LayerMask.GetMask("Ground"));
 	private void Start()
@@ -68,7 +71,6 @@ public class PlayerController : MonoBehaviour
 		meshRenderer.enabled = true;
 
 		lifePlayer = GetComponent<LifePlayer>();
-
 
 		speed = speedRun;
 
@@ -157,6 +159,7 @@ public class PlayerController : MonoBehaviour
 		canDoubleJump = false;
 		ResetJumpAnimation();
 	}
+
 	private void DoubleJump()
 	{
 		canDoubleJump = false;
@@ -164,7 +167,7 @@ public class PlayerController : MonoBehaviour
 		Debug.Log("PULEI DUPLAMENTE, SE FODEU");
 		animator.SetBool("doublejump", true);
 		animator.SetBool("jump", false);
-		rb.velocity = new Vector3(rb.velocity.x, jumpForce * 1.5f, rb.velocity.z);
+		rb.velocity = new Vector3(rb.velocity.x, doubleJumpForce, rb.velocity.z);
 
 		Invoke(nameof(ResetJumpAnimation), jumpCooldown);
 	}
@@ -185,6 +188,12 @@ public class PlayerController : MonoBehaviour
 	}
 	public void Gravity() 
 	{
+		if (!IsGravityEnabled)
+		{
+			rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+			return;
+		}
+
 		Vector3 gravityVector = new Vector3(0, -gravity * rb.mass, 0);
 		rb.AddForce(gravityVector, ForceMode.Acceleration);
 	}
