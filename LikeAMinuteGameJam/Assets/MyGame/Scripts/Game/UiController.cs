@@ -11,10 +11,14 @@ public class UiController : MonoBehaviour
 	public GameObject[] fragments;
 	int fragmentsCount;
 
+	float _timer;
+
 	void Start()
 	{
-		tempoAtual = tempoTotal;		
+		StartCoroutine(AtualizarContador());
+		RestartPlayerPosition();
 	}
+
 	private void OnEnable()
 	{
 		GameEvents.OnExitSafeZone+= IniciarContador;
@@ -29,20 +33,23 @@ public class UiController : MonoBehaviour
 	}
 	void IniciarContador()
 	{
-		StartCoroutine(AtualizarContador());
+		tempoAtual = tempoTotal;
+		textoContador.transform.parent.gameObject.SetActive(true);
 	}
 
 	IEnumerator AtualizarContador()
 	{
-		while (tempoAtual > 0f)
+		if  (tempoAtual > 0f)
 		{
 			textoContador.text = tempoAtual.ToString("F0"); 
 															
 			yield return new WaitForSeconds(1f);
 			tempoAtual--; 
 		}
+		else
+			RestartPlayerPosition();
 
-		RestartPlayerPosition();
+		StartCoroutine(AtualizarContador());
 	}
 	public void AddCoinTime(int value) 
 	{
@@ -61,6 +68,6 @@ public class UiController : MonoBehaviour
 	public void RestartPlayerPosition() 
 	{
 		GameEvents.ResetPlayer?.Invoke();
-		tempoAtual = tempoTotal;
+		textoContador.transform.parent.gameObject.SetActive(false);
 	}
 }

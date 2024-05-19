@@ -368,10 +368,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -559,10 +574,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -777,10 +807,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1189,10 +1234,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1277,10 +1337,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1632,10 +1707,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1987,10 +2077,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2153,10 +2258,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2668,10 +2788,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2762,10 +2897,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3080,10 +3230,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3530,10 +3695,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3604,10 +3784,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3651,8 +3846,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3864,10 +4059,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4141,10 +4351,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4221,10 +4446,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4684,10 +4924,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4925,10 +5180,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5240,10 +5510,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5842,10 +6127,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5930,10 +6230,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5998,10 +6313,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6305,10 +6635,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6649,10 +6994,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6749,10 +7109,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6917,10 +7292,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7005,10 +7395,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7165,10 +7570,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7259,10 +7679,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7353,10 +7788,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7819,10 +8269,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7913,10 +8378,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8449,10 +8929,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8960,10 +9455,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9054,10 +9564,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9337,10 +9862,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9613,10 +10153,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9808,10 +10363,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10348,7 +10918,7 @@ GameObject:
   - component: {fileID: 860532615}
   m_Layer: 0
   m_Name: "Espinhos Ch\xE3o"
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10694,10 +11264,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10893,10 +11478,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11227,10 +11827,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11673,10 +12288,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11741,10 +12371,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11829,10 +12474,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12429,10 +13089,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12517,10 +13192,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12664,10 +13354,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12855,10 +13560,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12923,10 +13643,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13938,10 +14673,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14283,10 +15033,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15016,10 +15781,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15084,10 +15864,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15485,10 +16280,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16105,10 +16915,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16300,10 +17125,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16596,10 +17436,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16684,10 +17539,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16772,10 +17642,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17244,10 +18129,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17338,10 +18238,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17651,10 +18566,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18057,10 +18987,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18379,10 +19324,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18715,10 +19675,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18795,10 +19770,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19022,7 +20012,7 @@ GameObject:
   - component: {fileID: 1689101791}
   m_Layer: 0
   m_Name: Espinhos Ar
-  m_TagString: Untagged
+  m_TagString: obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19130,10 +20120,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19259,10 +20264,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19415,10 +20435,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19996,10 +21031,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21037,10 +22087,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21337,10 +22402,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22398,10 +23478,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22939,10 +24034,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23013,10 +24123,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23330,10 +24455,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23486,10 +24626,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23574,10 +24729,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24004,10 +25174,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24146,10 +25331,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24234,10 +25434,25 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7706299314303052533, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -4731858184583907351, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
         type: 3}
       propertyPath: m_Name
       value: plataforma_espinhos (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 717815305a186f2499777497c281dff0,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

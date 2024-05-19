@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 	[SerializeField] private float blinkTime = 3f;
 	[SerializeField] private float blinkDuration = 0.1f;
 
-	[SerializeField] private MeshRenderer meshRenderer;
+	[SerializeField] private SkinnedMeshRenderer meshRenderer;
 	[SerializeField] private bool isInvulnerable = false;
 
 
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
 		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
-		meshRenderer = GetComponentInChildren<MeshRenderer>();
+		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
 
 		mainCam = Camera.main.transform;
 
@@ -259,7 +259,7 @@ public class PlayerController : MonoBehaviour
 			GameEvents.TimeCoin?.Invoke(10);
 			Destroy(col.gameObject);
 		}
-		else if (col.CompareTag("ground") && IsGrounded)
+		else if (col.gameObject.layer == LayerMask.GetMask("Ground") && IsGrounded)
 		{
 			AudioManager.Play(SFX.Land);
 		}
