@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
 	bool IsGrounded => Physics.Raycast(transform.position, Vector3.down, .4f, LayerMask.GetMask("Ground"));
 	private void Start()
 	{
-		animator = GetComponent<Animator>();
+		animator = GetComponentInChildren<Animator>();
 		rb = GetComponent<Rigidbody>();
 		col = GetComponent<CapsuleCollider>();
 		meshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
