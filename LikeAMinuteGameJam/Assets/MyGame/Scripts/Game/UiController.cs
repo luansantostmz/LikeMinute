@@ -11,8 +11,6 @@ public class UiController : MonoBehaviour
 	public GameObject[] fragments;
 	int fragmentsCount;
 
-	float _timer;
-
 	void Start()
 	{
 		StartCoroutine(AtualizarContador());
@@ -39,17 +37,15 @@ public class UiController : MonoBehaviour
 
 	IEnumerator AtualizarContador()
 	{
-		if  (tempoAtual > 0f)
+		while (tempoAtual > 0f)
 		{
 			textoContador.text = tempoAtual.ToString("F0"); 
 															
 			yield return new WaitForSeconds(1f);
 			tempoAtual--; 
 		}
-		else
-			RestartPlayerPosition();
 
-		StartCoroutine(AtualizarContador());
+		RestartPlayerPosition();
 	}
 	public void AddCoinTime(int value) 
 	{
