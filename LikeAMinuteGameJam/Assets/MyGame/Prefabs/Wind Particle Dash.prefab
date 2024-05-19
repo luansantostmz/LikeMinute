@@ -4866,6 +4866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0648a3b7b97141408e47f88fb95629b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwForce: 40
-  maxUpwardForce: 60
+  throwForce: 20
+  maxUpwardForce: 30
   throwDirection: {x: 0, y: 0, z: 1}
