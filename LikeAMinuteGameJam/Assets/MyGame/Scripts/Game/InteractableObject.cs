@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using Unity.VisualScripting;
 
 
 
@@ -9,28 +11,31 @@ public class InteractableObject : MonoBehaviour
 	public GameObject interactionIcon;
 	public float interctableDistance;
 	private Transform player;
-
-	private AudioSource audioSource;
+	public TextMeshProUGUI text;
+	public string textcontent;
 
 	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag("Player").transform;
-		audioSource = GetComponent<AudioSource>();
+
 	}
 
-	void Update()
-	{
-		float distance = Vector3.Distance(transform.position, player.position);
-		
-		if(distance <= interctableDistance) 
-		{ 
-			interactionIcon.SetActive(true); 
+    private void OnTriggerEnter(Collider other)
+    {
+		if (other.CompareTag("Player"))
+		{
+            interactionIcon.SetActive(true);
 
-			if(Input.GetKeyDown(KeyCode.E)) 
-			{
-				audioSource.Play();
-			}		
-		}
-		else { interactionIcon.SetActive(false); }
-	}
+            text.text = textcontent;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            interactionIcon.SetActive(false);
+
+        }
+    }
 }
