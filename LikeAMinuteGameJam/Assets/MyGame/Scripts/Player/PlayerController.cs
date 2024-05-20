@@ -263,6 +263,31 @@ public class PlayerController : MonoBehaviour
 		{
 			AudioManager.Play(SFX.Land);
 		}
+		else if (col.CompareTag("Porta1"))
+		{
+			AudioManager.Play(SFX.Collect);
+			GameEvents.TotemPorta1?.Invoke(1);
+		}
+		else if (col.CompareTag("Porta2"))
+		{
+			AudioManager.Play(SFX.Collect);
+			GameEvents.TotemPorta2?.Invoke(1);
+		}
+		else if (col.CompareTag("Porta3"))
+		{
+			AudioManager.Play(SFX.Collect);
+			GameEvents.TotemPorta3?.Invoke(1);
+		}
+		else if (col.CompareTag("Porta4"))
+		{
+			AudioManager.Play(SFX.Collect);
+			GameEvents.TotemPorta4?.Invoke(1);
+		}
+		else if (col.CompareTag("Porta5"))
+		{
+			AudioManager.Play(SFX.Collect);
+			GameEvents.TotemPorta5?.Invoke(1);
+		}
 	}
 
 	[System.Serializable]
