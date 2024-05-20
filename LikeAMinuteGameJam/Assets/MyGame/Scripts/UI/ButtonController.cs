@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonControllerUI : MonoBehaviour
@@ -6,7 +7,7 @@ public class ButtonControllerUI : MonoBehaviour
 	[Header("FullScreen")]
 	public Toggle toggle;
 	public static bool isFullscreen;
-	
+
 
 	[Header("Audio")]
 	public Slider slider;
@@ -41,7 +42,7 @@ public class ButtonControllerUI : MonoBehaviour
 
 	void UpdateAudioVolume(float volume)
 	{
-		
+
 		AudioListener.volume = volume;
 		PlayerPrefs.SetFloat("Volume", volume);
 		Debug.Log("Esta mudando os valores: " + volume);
@@ -53,5 +54,15 @@ public class ButtonControllerUI : MonoBehaviour
 		Screen.fullScreen = isFullScreen;
 		PlayerPrefs.SetInt("Fullscreen", isFullscreen ? 1 : 0);
 		PlayerPrefs.Save();
+	}
+
+	public void SwitchScene(string sceneName)
+	{
+		SceneManager.LoadScene(sceneName);
+	}
+
+	public void QuitGame()
+	{
+		Application.Quit();
 	}
 }
