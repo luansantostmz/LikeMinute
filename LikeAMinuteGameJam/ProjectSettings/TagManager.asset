@@ -10,6 +10,8 @@ TagManager:
   - coin
   - forceWind
   - FragmentMemory
+  - Porta1
+  - s
   layers:
   - Default
   - TransparentFX

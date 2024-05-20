@@ -253,6 +253,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else if (col.CompareTag("FragmentMemory"))
 		{
+			GameEvents.Talisma?.Invoke(1);
 			AudioManager.Play(SFX.Collect);
 			GameEvents.FragmentMemory?.Invoke();
 			lifePlayer.AddHealth(3);
@@ -262,32 +263,7 @@ public class PlayerController : MonoBehaviour
 		else if (col.gameObject.layer == LayerMask.GetMask("Ground") && IsGrounded)
 		{
 			AudioManager.Play(SFX.Land);
-		}
-		else if (col.CompareTag("Porta1"))
-		{
-			AudioManager.Play(SFX.Collect);
-			GameEvents.TotemPorta1?.Invoke(1);
-		}
-		else if (col.CompareTag("Porta2"))
-		{
-			AudioManager.Play(SFX.Collect);
-			GameEvents.TotemPorta2?.Invoke(1);
-		}
-		else if (col.CompareTag("Porta3"))
-		{
-			AudioManager.Play(SFX.Collect);
-			GameEvents.TotemPorta3?.Invoke(1);
-		}
-		else if (col.CompareTag("Porta4"))
-		{
-			AudioManager.Play(SFX.Collect);
-			GameEvents.TotemPorta4?.Invoke(1);
-		}
-		else if (col.CompareTag("Porta5"))
-		{
-			AudioManager.Play(SFX.Collect);
-			GameEvents.TotemPorta5?.Invoke(1);
-		}
+		}			
 	}
 
 	[System.Serializable]

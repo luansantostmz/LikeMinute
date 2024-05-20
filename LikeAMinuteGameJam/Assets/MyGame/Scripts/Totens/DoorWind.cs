@@ -8,61 +8,43 @@ public class DoorWind : MonoBehaviour
 {
 
 	public int totemPorta1Count;
-	public int totemPorta2Count;
-	public int totemPorta3Count;
-	public int totemPorta4Count;
-	public int totemPorta5Count;
+	public int talismaCount;
+	public int platformCount;
 
 	public int totalPorta1;
-	public int totalPorta2;
-	public int totalPorta3;
-	public int totalPorta4;
-	public int totalPorta5;
+	public int totalTalisma;
+	public int totalplatform;
 
 	public GameObject door1;
-	public GameObject door2;
-	public GameObject door3;
-	public GameObject door4;
-	public GameObject door5;	
+	public GameObject doorGameEnd;
+	public GameObject platform;
 
 	private void OnEnable()
 	{
 		GameEvents.TotemPorta1 += AddPorta1;
-		GameEvents.TotemPorta2 += AddPorta2;
-		GameEvents.TotemPorta3 += AddPorta3;
-		GameEvents.TotemPorta4 += AddPorta4;
-		GameEvents.TotemPorta5 += AddPorta5;
+		GameEvents.Talisma += AddTalisma;
+		GameEvents.Platform += AddPlatform;
 	}
 	private void OnDisable()
 	{
 		GameEvents.TotemPorta1 -= AddPorta1;
-		GameEvents.TotemPorta2 -= AddPorta2;
-		GameEvents.TotemPorta3 -= AddPorta3;
-		GameEvents.TotemPorta4 -= AddPorta4;
-		GameEvents.TotemPorta5 -= AddPorta5;
+		GameEvents.Talisma -= AddTalisma;
+		GameEvents.Platform -= AddPlatform;
 	}
 
 	private void Update()
 	{
 		if(totemPorta1Count == totalPorta1) 
 		{
-			door1.SetActive(true);
+			door1.SetActive(false);
 		}
-		if (totemPorta2Count == totalPorta2)
+		if (talismaCount == totalTalisma)
 		{
-			door1.SetActive(true);
+			doorGameEnd.SetActive(false);
 		}
-		if (totemPorta3Count == totalPorta3)
+		if (platformCount == totalplatform)
 		{
-			door1.SetActive(true);
-		}
-		if (totemPorta4Count == totalPorta4)
-		{
-			door1.SetActive(true);
-		}
-		if (totemPorta5Count == totalPorta5)
-		{
-			door1.SetActive(true);
+			platform.SetActive(true);
 		}
 	}
 
@@ -70,22 +52,12 @@ public class DoorWind : MonoBehaviour
 	{
 		totemPorta1Count+= value;
 	}
-	public void AddPorta2(int value)
+	public void AddTalisma(int value)
 	{
-		totemPorta2Count += value;
+		talismaCount += value;
 	}
-	public void AddPorta3(int value)
+	public void AddPlatform(int value)
 	{
-		totemPorta3Count += value;
+		platformCount += value;
 	}
-	public void AddPorta4(int value)
-	{
-		totemPorta4Count += value;
-	}
-	public void AddPorta5(int value)
-	{
-		totemPorta5Count += value;
-	}
-
-
 }

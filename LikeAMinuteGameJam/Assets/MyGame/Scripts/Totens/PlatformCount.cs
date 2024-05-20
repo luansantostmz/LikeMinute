@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WindTotem : MonoBehaviour
+public class PlatformCount : MonoBehaviour
 {
 	public string newTag;
 
@@ -10,7 +10,7 @@ public class WindTotem : MonoBehaviour
 	{
 		if (col.gameObject.CompareTag("Player") && gameObject.tag != newTag)
 		{
-			GameEvents.TotemPorta1?.Invoke(1);
+			GameEvents.Platform?.Invoke(1);
 			this.gameObject.tag = newTag;
 		}
 	}
